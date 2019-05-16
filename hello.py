@@ -12,4 +12,17 @@ def checkBirthYear():
     print(type(checkYear))
     print ( 2019 - int(checkYear))
 
-checkBirthYear()
+# checkBirthYear()
+
+def stringManipulation():
+    longstring = ''' 
+    this
+    is 
+    to
+    print
+    on
+    multiple
+lines'''
+    print (longstring)
+    print (longstring[-10:-5])
+stringManipulation()
