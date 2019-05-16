@@ -5,5 +5,11 @@ def checkName(name):
     else:
         name = input("We're sorry about that. What is your name agian?")
         print("Welcome, " + name)
-checkName("David")
+# checkName("David")
 
+def checkBirthYear():
+    checkYear = input('what year are you born?')
+    print(type(checkYear))
+    print ( 2019 - int(checkYear))
+
+checkBirthYear()
