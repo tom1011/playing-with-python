@@ -6,3 +6,4 @@ def checkName(name):
         name = input("We're sorry about that. What is your name agian?")
         print("Welcome, " + name)
 checkName("David")
+
