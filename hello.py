@@ -1,3 +1,6 @@
+
+
+
 def checkName(name):
     checkName = input("is your name " + name + "? ")
     if checkName.lower() == "yes":
@@ -34,5 +37,7 @@ def formatedString():
     msg = f'{first} [{last}] can add text'
     print(msg)
     print(first.find('d'))
-formatedString()
+    print( 'day' in last)
+# formatedString()
+
 
