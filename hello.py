@@ -25,4 +25,14 @@ def stringManipulation():
 lines'''
     print (longstring)
     print (longstring[-10:-5])
-stringManipulation()
+    # this will print it exactly how it is in file ie with spacing included.
+# stringManipulation()
+
+def formatedString():
+    first = 'david'
+    last = 'friday'
+    msg = f'{first} [{last}] can add text'
+    print(msg)
+    print(first.find('d'))
+formatedString()
+
